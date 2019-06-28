@@ -1,4 +1,4 @@
-= Contributing
+== Contributing
 
 
 To contribute to the project, please read the https://github.com/kreait/slack-spring-boot-starter/blob/master/CONTRIBUTING.adoc[Contribution Guidelines]
