@@ -1,7 +1,3 @@
-:source-highlighter: prettify
-
-:version: 1.0.0.M2
-
 = Slack Spring Boot
 
 image:https://travis-ci.com/kreait/slack-spring-boot-starter.svg?branch=master[link="https://travis-ci.com/kreait/slack-spring-boot-starter"]
