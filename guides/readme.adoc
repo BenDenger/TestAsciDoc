@@ -16,7 +16,8 @@ image:http://img.shields.io/badge/stackoverflow-slack-informational.svg[link="ht
 - app installation workflow just works and takes care of the whole authentication flow
 - supports link:https://api.slack.com/docs/verifying-requests-from-slack[signing] out of the box
 
-[source,kotlin,indent=0]
+
+[source,kotlin]
 ----
-include::test.kt[lines=3..5]
+include::../test.kt
 ----
