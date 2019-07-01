@@ -19,5 +19,5 @@ image:http://img.shields.io/badge/stackoverflow-slack-informational.svg[link="ht
 
 [source,kotlin]
 ----
-include::../test.kt
+include::../test.kt[lines=3..6]
 ----
