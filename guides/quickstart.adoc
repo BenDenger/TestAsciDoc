@@ -3,7 +3,7 @@
 :title: Quickstarter Guide
 :excerpt: This short guide will guide you through a quick setup
 
-=== Create a Slack App
+== Create a Slack App
 
 Now you will need to set-up your App on the Slack API page.
 Go to https://api.slack.com/apps
@@ -40,8 +40,7 @@ slack.installation.error-redirect-url=
 Locate your app credentials under the *Basic Information* menu item on https://api.slack.com/apps (select your app)
 By default there is 3 ways adding your slack credentials to the application
 
-1. Create a file $HOME/.slack/credentials
-
+==== Create a file $HOME/.slack/credentials
 [source]
 --
 slack_app_client_id=<client_id>
@@ -49,7 +48,7 @@ slack_app_client_secret=<client_secret>
 slack_app_signing_secret=<signing secret>
 --
 
-2. Set Environment Variables
+==== Set Environment Variables
 
 [source]
 --
@@ -58,7 +57,7 @@ SLACK_APP_CLIENT_SECRET=<client_secret>
 SLACK_APP_SIGNING_SECRET=<signing secret>
 --
 
-3. Set JVM System Properties
+==== Set JVM System Properties
 
 [source]
 --
