@@ -2,6 +2,7 @@
 
 :excerpt: This short guide will guide you through a quick setup
 :title: Quickstart
+
 === Create a Slack App
 
 Now you will need to set-up your App on the Slack API page.
