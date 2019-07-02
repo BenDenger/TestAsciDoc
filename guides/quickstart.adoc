@@ -1,6 +1,6 @@
 = Quickstart Guide
 
-This short guide will guide you through a quick setup
+:excerpt: This short guide will guide you through a quick setup
 
 === Create a Slack App
 
