@@ -1,5 +1,4 @@
 = Quickstart Guide
-
 :title: Quickstarter Guide
 :excerpt: This short guide will guide you through a quick setup
 
