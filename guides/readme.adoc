@@ -1,6 +1,7 @@
 = Slack Spring Boot
 :excerpt: find out why you should use our Slack Spring Boot Starter SDK!
 :title: Why Slack Spring Boot Starter? 
+
 image:https://travis-ci.com/kreait/slack-spring-boot-starter.svg?branch=master[link="https://travis-ci.com/kreait/slack-spring-boot-starter"]
 image:https://sonarcloud.io/api/project_badges/measure?project=io.olaph.slack&metric=alert_status&metric=alert_status[link="https://sonarcloud.io/dashboard?id=io.olaph.slack"]
 image:https://img.shields.io/badge/version-{version}-fffff.svg[]
