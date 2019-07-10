@@ -1,7 +1,7 @@
 = First Command Receiver
 :excerpt: This short guide will show you how to set up a slashcommand receiver
 :title: First Slashcommand Receiver
-
+:order: 2
 To write your first command receiver you write a component that implements the link:starter/slack-spring-boot/src/main/kotlin/io/olaph/slack/broker/receiver/SlashCommandReceiver.kt[SlashCommandReceiver] interface
 you can use the  link:client/slack-api-client/src/main/kotlin/io/olaph/slack/client/SlackClient.kt[SlackClient] that is automatically registered with the starter
 

@@ -1,5 +1,6 @@
 = Contributing
 :excerpt: Please read our Contribution Guidelines before contributing to this project
 :title: Contribution Guidelines
+:order: 99
 
 To contribute to the project, please read the https://github.com/kreait/slack-spring-boot-starter/blob/master/CONTRIBUTING.adoc[Contribution Guidelines]

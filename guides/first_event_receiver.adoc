@@ -1,6 +1,7 @@
 = First Event Receiver
 :excerpt: This short guide will show you how to set up a Event receiver
 :title: First Event Receiver
+:order: 4
 
 To write your first command receiver you write a component that implements the link:starter/slack-spring-boot/src/main/kotlin/io/olaph/slack/broker/receiver/SlashCommandReceiver.kt[SlashCommandReceiver] interface
 you can use the  link:client/slack-api-client/src/main/kotlin/io/olaph/slack/client/SlackClient.kt[SlackClient] that is automatically registered with the starter

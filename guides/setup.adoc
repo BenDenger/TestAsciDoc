@@ -1,6 +1,7 @@
 = Setup
 :excerpt: This short guide will guide you through a quick setup
 :title: Setup
+:order: 1
 
 == Setup a Slack Bot
 Now you will need to set-up your App on the Slack API page. Go to https://api.slack.com/apps Under "Your Apps" create a new Slack App, give it a name and select the slack workspace you want to develop with (you can’t change this workspace later)
