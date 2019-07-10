@@ -1,5 +1,5 @@
 = Setup
-:description: This short guide will guide you through a quick setup
+:excerpt: This short guide will guide you through a quick setup
 :title: Setup
 
 == Setup a Slack Bot
