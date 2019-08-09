@@ -17,7 +17,7 @@ Create a new spring boot application for example on https://start.spring.io (bes
 
 Add the following to your *build.gradle* file
 
-[source]
+[source,kotlin]
 --
 repositories { maven { url "https://libs.olaph.io" } }
 
