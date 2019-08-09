@@ -1,5 +1,4 @@
 = Setup
-
 :excerpt: This short guide will guide you through a quick setup
 :title: Setup
 :order: 1
