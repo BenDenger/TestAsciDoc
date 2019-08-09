@@ -3,14 +3,15 @@
 :title: First Interactive Component Receiver
 :order: 3
 
-To write your first command receiver you write a component that implements the link:starter/slack-spring-boot/src/main/kotlin/io/olaph/slack/broker/receiver/SlashCommandReceiver.kt[SlashCommandReceiver] interface
-you can use the  link:client/slack-api-client/src/main/kotlin/io/olaph/slack/client/SlackClient.kt[SlackClient] that is automatically registered with the starter
+To write your first command receiver you write a component that implements the link:starter/slack-spring-boot/src/main/kotlin/io/olaph/slack/broker/receiver/SlashCommandReceiver.kt[SlashCommandReceiver] interface you can use the  link:client/slack-api-client/src/main/kotlin/io/olaph/slack/client/SlackClient.kt[SlackClient] that is automatically registered with the starter
 
 Example Ping Receiver that answers with a pong
+
 [source,kotlin]
 --
-@Component
-class PingCommandReceiver @Autowired constructor(private val slackClient: SlackClient) : SlashCommandReceiver {
+@Component class PingCommandReceiver @Autowired constructor(private val slackClient:
+SlackClient) :
+SlashCommandReceiver {
 
     override fun supportsCommand(slackCommand: SlackCommand): Boolean {
         return slackCommand.command.startsWith("/ping")
