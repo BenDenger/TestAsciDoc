@@ -1,6 +1,6 @@
 = Setup1
 
-:source-highlighter: pygments
+:source-highlighter: highlightjs
 :excerpt: This short guide will guide you through a quick setup
 :title: Setup
 :order: 1
