@@ -2,6 +2,7 @@
 :excerpt: This short guide will guide you through a quick setup
 :title: Setup
 :order: 1
+:source-highlighter: highlightjs
 
 == Setup a Slack Bot
 
