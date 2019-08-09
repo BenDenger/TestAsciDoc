@@ -1,4 +1,4 @@
-= Setup2
+= Setup
 
 :excerpt: This short guide will guide you through a quick setup
 :title: Setup
@@ -18,7 +18,7 @@ Create a new spring boot application for example on https://start.spring.io (bes
 
 Add the following to your *build.gradle* file
 
-[source,kotlin]
+[source]
 --
 repositories { maven { url "https://libs.olaph.io" } }
 
@@ -27,7 +27,7 @@ dependencies { //we add changing true because we are working with changing miles
 
 Add the following properties to the *application.properties* file
 
-[source,kotlin]
+[source]
 --
 //the url the user should be redirected to on a successful installation
 slack.installation.success-redirect-url=
@@ -42,7 +42,7 @@ Locate your app credentials under the *Basic Information* menu item on https://a
 
 1. Create a file $HOME/.slack/credentials
 
-    [source,kotlin]
+    [source]
     --
     slack_app_client_id=<client_id>
     slack_app_client_secret=<client_secret>
@@ -51,7 +51,7 @@ Locate your app credentials under the *Basic Information* menu item on https://a
 
 2. Set Environment Variables
 
-    [source,kotlin]
+    [source]
     --
     SLACK_APP_CLIENT_ID=<client_id>
     SLACK_APP_CLIENT_SECRET=<client_secret>
@@ -60,18 +60,15 @@ Locate your app credentials under the *Basic Information* menu item on https://a
 
 3. Set JVM System Properties
 
-    [source,kotlin]
-    --
     slack.application.client-id=<client_id>
     slack.application.client-secret=<client_secret>
     slack.application.signing=<signing secret>
-    --
 
 If you want to provide your own link:starter/slack-spring-boot-autoconfigure/src/main/kotlin/io/olaph/slack/broker/autoconfiguration/credentials/CredentialsProvider.kt[CredentialsProvider] implement the interface and expose it as a Bean/Component
 
 Start your application
 
-[source,kotlin]
+[source]
 --
 ./gradlew bootRun
 --
