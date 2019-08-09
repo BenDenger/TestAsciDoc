@@ -2,7 +2,6 @@
 :excerpt: This short guide will guide you through a quick setup
 :title: Setup
 :order: 1
-:source-highlighter: highlightjs
 
 == Setup a Slack Bot
 
@@ -17,7 +16,7 @@ Create a new spring boot application for example on https://start.spring.io (bes
 
 Add the following to your *build.gradle* file
 
-[source,kotlin]
+[source,java]
 --
 repositories { maven { url "https://libs.olaph.io" } }
 
