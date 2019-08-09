@@ -1,9 +1,9 @@
-= Setup
+= Setup1
 
+:source-highlighter: pygments
 :excerpt: This short guide will guide you through a quick setup
 :title: Setup
 :order: 1
-:source-highlighter: pygments
 
 == Setup a Slack Bot
 
