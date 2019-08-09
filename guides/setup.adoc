@@ -1,4 +1,4 @@
-= Setup1
+= Setup2
 
 :source-highlighter: highlightjs
 :excerpt: This short guide will guide you through a quick setup
